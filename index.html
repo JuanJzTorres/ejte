@@ -1,0 +1,560 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicios y Evaluaciones para Física General: Termodinámica</title>
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code_thermodynamics.jpg");
+color: black;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>Fenómenos Termodinámicos</h1>
+</div>
+<form id="form1">
+
+
+
+<h1>Presentación</h1>
+<p>Estos ejercicios tienen como finalidad apoyar a estudiantes del primer año universitario en un curso de Física General. Puede servir también como apoyo para recordar y reforzar los conocimientos de física adquiridos previamente en el nivel de Bachillerato.</p>
+
+<p>Esta serie de ejercicios corresponde a la unidad 'Fenómenos Termodinámicos'. </p>
+
+<p>Autor: Juan José Jiménez Torres </p>
+
+
+<p> Los ejercicios y sus respectivas figuras, se encuentran basados en ejercicios planteados en distintas fuentes bibliográficas como los textos de Schad (1996), Resnick y Halliday (1981), Tippens (2001), Benson (1999, 1991) y Hewitt (1999). Estos ejercicios de física también fueron empleados para el trabajo que desarrollé en Jiménez-Torres (2006). </p>
+
+
+<A HREF="https://arxiv.org/abs/2302.08006"> Artículo publicado en arXiv: Physics Education (physics.ed-ph) </A>
+
+
+
+
+
+<h2>1) La energía proveniente de los combustibles sólidos y la energía nuclear son energías provenientes de: </h2>
+<label for="sub_string"><input type="radio" name="p2" value="0" id="sub_string"/> a) Energías provenientes de recursos renovables. </label>
+<label for="sub_join"><input type="radio" name="p2" value="10" id="sub_join"/> b) Energías provenientes de recursos no renovables. </label>
+
+
+<h2>2) La energías eólica, geotérmica, hidráulica, hidroeléctrica, y solar; son energías provenientes de: </h2>
+<label for="sub_string"><input type="radio" name="p3" value="10" id="sub_string"/> a) Energías provenientes de recursos renovables. </label>
+<label for="sub_join"><input type="radio" name="p3" value="0" id="sub_join"/> b) Energías provenientes de recursos no renovables. </label>
+
+
+<h2>3)  Es posible que dos cuerpos se encuentren en equilibrio térmico mutuo sin estar en contacto físico. </h2>
+<label for="var_string"><input type="radio" name="p4" value="0" id="var_string" /> Falso. </label>
+<label for="var_join"><input type="radio" name="p4" value="10" id="var_join" /> Verdadero. </label>
+
+
+
+<h2>4)  Cuando se abre un refrigerador sentimos una sensación de frío, esto es debido a que el aire frío proveniente del refrigerador fluyó hacia nosotros. </h2>
+<label for="var_string"><input type="radio" name="p5" value="10" id="var_string" /> Falso. </label>
+<label for="var_join"><input type="radio" name="p5" value="0" id="var_join" /> Verdadero. </label>
+
+
+<h2>5) En  la escala de temperatura Celsius hay 100 intervalos o grados Celsius (C°) desde el punto de congelación a 0°C  y el punto de ebullición a 100°C. En la escala Fahrenheit hay 180 intervalos, o grados Fahrenheit (°F), entre el punto de congelación a 32 °F y el punto de ebullición a 212 °F. ¿Cuál es la fórmula que convierte la temperatura tC en la escala Celsius a la temperatura equivalente tF en la escala Fahrenheit? </h2>
+<label for="sub_string"><input type="radio" name="p6" value="10" id="sub_string"/> a) (9/5)tC + 32° F = tF. </label>
+<label for="sub_join"><input type="radio" name="p6" value="0" id="sub_join"/> b) (9/5)tC – 32° F = tF. </label>
+<label for="sub_info"><input type="radio" name="p6" value="0" id="sub_info" /> c) (5/9)tC + 32°F = tF. </label>
+<label for="sub_condition"><input type="radio" name="p6" value="0" id="sub_condition" /> d) (5/9)tC - 32° F = tF. </label>
+<label for="sub_condition2"><input type="radio" name="p6" value="0" id="sub_condition2" /> e) (9/5)tC = tF. </label>
+
+
+
+<h2>6) Considerar una gran jarra con agua caliente a 90°C y una pequeña taza con agua a 90°C. Si vaciamos el agua de cada recipiente sobre dos bloques de hielo iguales, se fundirá más hielo donde se vació la gran jarra de agua. </h2>
+<label for="var_string"><input type="radio" name="p7" value="0" id="var_string" /> Falso. </label>
+<label for="var_join"><input type="radio" name="p7" value="10" id="var_join" /> Verdadero. </label>
+
+
+
+<h2>7) La materia no contiene calor, sino energía interna. </h2>
+<label for="var_string"><input type="radio" name="p8" value="0" id="var_string" /> Falso. </label>
+<label for="var_join"><input type="radio" name="p8" value="10" id="var_join" /> Verdadero. </label>
+
+
+<h2>8) El termómetro es un instrumento que mide: </h2>
+<label for="sub_string"><input type="radio" name="p9" value="0" id="sub_string"/> a) Cantidad de calor. </label>
+<label for="sub_join"><input type="radio" name="p9" value="0" id="sub_join"/> b) Energía interna. </label>
+<label for="sub_info"><input type="radio" name="p9" value="10" id="sub_info" /> c) Temperatura. </label>
+<label for="sub_condition"><input type="radio" name="p9" value="0" id="sub_condition" /> d) Presión. </label>
+<label for="sub_condition2"><input type="radio" name="p9" value="0" id="sub_condition2" /> e) Volumen. </label>
+
+
+
+<h2>9) Corresponde al aumento que experimenta la longitud o el volumen de la mayoría de las sustancias cuando su temperatura se incrementa. </h2>
+<label for="sub_string"><input type="radio" name="p10" value="0" id="sub_string"/> a) Dilatación superficial. </label>
+<label for="sub_join"><input type="radio" name="p10" value="10" id="sub_join"/> b) Dilatación térmica. </label>
+<label for="sub_info"><input type="radio" name="p10" value="0" id="sub_info" /> c) Dilatación lineal . </label>
+<label for="sub_condition"><input type="radio" name="p10" value="0" id="sub_condition" /> d) Dilatación volumétrica. </label>
+
+
+
+
+<h2>10) Algunos vasos de vidrio se cuartean cuando se vierte agua caliente en ellos porque la superficie exterior del vidrio se dilata mucho más rápidamente que la superficie interior. </h2>
+<label for="sub_string"><input type="radio" name="p11" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p11" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>11) Una planta de energía nuclear desecha 500 MW de calor que es eliminado por el agua bombeada de un lago. Si la temperatura del agua debe elevarse 10°C, ¿cuánto debe ser la tasa de flujo de calor necesaria ? </h2>
+<label for="sub_string"><input type="radio" name="p12" value="0" id="sub_string"/> a) 421.44 kg/s. </label>
+<label for="sub_join"><input type="radio" name="p12" value="10" id="sub_join"/> b) 1.19X10<sup>4</sup> kg/s. </label>
+<label for="sub_info"><input type="radio" name="p12" value="0" id="sub_info" />  c) 1.19X10<sup>-2</sup> kg/s. </label>
+<label for="sub_condition"><input type="radio" name="p12" value="0" id="sub_condition" /> d) 8.38X10<sup>-7</sup> kg/s. </label>
+<label for="sub_condition"><input type="radio" name="p12" value="0" id="sub_condition" /> e) 2.96X10<sup>-8</sup> kg/s. </label>
+
+
+
+
+
+<h2>12) Una resistencia eléctrica de 0.5 kg de acero y potencia de 1200 J se coloca en 0.6 kg de agua a una temperatura de 10°C. ¿Cuánto tiempo tarda el agua en llegar a 90°C?. </h2>
+<label for="sub_string"><input type="radio" name="p13" value="0" id="sub_string"/> a) 167.70 s. </label>
+<label for="sub_join"><input type="radio" name="p13" value="0" id="sub_join"/> b) 15.00 s. </label>
+<label for="sub_info"><input type="radio" name="p13" value="10" id="sub_info" />  c) 182.60 s. </label>
+<label for="sub_condition"><input type="radio" name="p13" value="0" id="sub_condition" /> d) 152.60 s. </label>
+<label for="sub_condition"><input type="radio" name="p13" value="0" id="sub_condition" /> e) 3.02X10<sup>6</sup> s. </label>
+
+
+
+<h2>13) ¿Cuánto calor se necesita para transformar 80 g de hielo inicialmente a una temperatura de -10°C a 60 g de agua y 20 de vapor a 100°C? </h2>
+<label for="sub_string"><input type="radio" name="p14" value="0" id="sub_string"/> a) 16.72 KJ. </label>
+<label for="sub_join"><input type="radio" name="p14" value="0" id="sub_join"/> b) 107.12 KJ. </label>
+<label for="sub_info"><input type="radio" name="p14" value="0" id="sub_info" />  c) 242.72 KJ. </label>
+<label for="sub_condition"><input type="radio" name="p14" value="10" id="sub_condition" /> d) 81.98 KJ. </label>
+<label for="sub_condition"><input type="radio" name="p14" value="0" id="sub_condition" /> e) 118.88 KJ. </label>
+
+
+
+
+
+<h2>14) En una taza de cerámica de 500 g se sirve agua caliente. ¿Cuánto calor absorbe la taza si su temperatura se eleva de 20 a 90°C? El calor específico de la cerámica es de 880 J/kg °C.</h2>
+<label for="sub_string"><input type="radio" name="p15" value="0" id="sub_string"/> a) 30.8X10<sup>6</sup> J. </label>
+<label for="sub_join"><input type="radio" name="p15" value="10" id="sub_join"/> b) 30.8X10<sup>3</sup> J. </label>
+<label for="sub_info"><input type="radio" name="p15" value="0" id="sub_info" />  c) 29.33 J. </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> d) 34.09 J. </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> e) 7.33 J. </label>
+
+
+
+<h2>15) En una fundición existen hornos capaces de fundir totalmente metales. Si se necesita fundir 540 kg de cobre con una temperatura inicial de 20°C, ¿cuánto calor se necesita para fundir esa cantidad de cobre?. Asumir que la temperatura de fusión del cobre es de 1080 °C.  </h2>
+<label for="sub_string"><input type="radio" name="p16" value="0" id="sub_string"/> a) 2.23X10<sup>8</sup> J. </label>
+<label for="sub_join"><input type="radio" name="p16" value="10" id="sub_join"/> b) 2.92X10<sup>8</sup> J. </label>
+<label for="sub_info"><input type="radio" name="p16" value="0" id="sub_info" />  c) 7.24X10<sup>7</sup> J. </label>
+<label for="sub_condition"><input type="radio" name="p16" value="0" id="sub_condition" /> d) 7.67X10<sup>10</sup> J. </label>
+<label for="sub_condition"><input type="radio" name="p16" value="0" id="sub_condition" /> e) 2.11X10<sup>5</sup> J. </label>
+
+
+
+
+
+<h2>16) Seleccionar la opción correcta para indicar el tipo de transferencia de calor que está asociado con el movimiento de las partes o regiones calientes y frías de un fluido. </h2>
+<label for="sub_string"><input type="radio" name="p17" value="0" id="sub_string"/> a) Conducción. </label>
+<label for="sub_join"><input type="radio" name="p17" value="0" id="sub_join"/> b) Radiación. </label>
+<label for="sub_join"><input type="radio" name="p17" value="10" id="sub_join"/> c) Convección. </label>
+
+
+
+
+
+<h2>17) Corresponde a la cantidad de trabajo mecánico necesario para aumentar la temperatura de un gramo de agua desde 14.5°C hasta 15.5°C. </h2>
+<label for="sub_string"><input type="radio" name="p18" value="0" id="sub_string"/> a) Energía calorífica. </label>
+<label for="sub_join"><input type="radio" name="p18" value="10" id="sub_join"/> b) Equivalente mecánico del calor. </label>
+
+
+
+<h2>18) Parte de la física que se encarga del estudio de las conservaciones de energía mecánica en energía calorífica y viceversa, de calor en trabajo. </h2>
+<label for="sub_join"><input type="radio" name="p19" value="10" id="sub_join"/> a) Termodinámica. </label>
+<label for="sub_string"><input type="radio" name="p19" value="0" id="sub_string"/> b) Primera ley de la termodinámica. </label>
+
+
+
+
+<h2>19) Puede convertirse en otras formas de energía y estas pueden transformarse en calor. En este proceso, la energía se conserva. </h2>
+<label for="sub_string"><input type="radio" name="p20" value="10" id="sub_string"/> a) Energía calorífica. </label>
+<label for="sub_join"><input type="radio" name="p20" value="0" id="sub_join"/> b) Equivalente mecánico del calor. </label>
+
+
+
+
+<h2>20) Indica que el calor neto impartido a un sistema termodinámico es igual al trabajo neto realizado más el cambio total de la energía interna </h2>
+<label for="sub_string"><input type="radio" name="p22" value="0" id="sub_string"/> a) Energía calorífica. </label>
+<label for="sub_join"><input type="radio" name="p22" value="0" id="sub_join"/> b) Termodinámica. </label>
+<label for="sub_join"><input type="radio" name="p22" value="0" id="sub_join"/> c) Equivalente mecánico del calor. </label>
+<label for="sub_string"><input type="radio" name="p22" value="10" id="sub_string"/> d) Primera ley de la termodinámica. </label>
+
+
+
+
+<h2>21) Un gas se encuentra contenido en un recipiente como se muestra en la figura. El gas se expande mientras está en contacto con una flama y provoca el desplazamiento de un émbolo. Seleccionar la opción que describe esta expansión en términos de la primera ley de la termodinámica. </h2>
+<IMG SRC="23_term.jpg" WIDTH=180 HEIGHT=398>
+
+<label for="sub_string"><input type="radio" name="p23" value="0" id="sub_string"/> a) La energía interna ΔU del gas aumenta debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo -ΔW sobre el émbolo. </label>
+
+<label for="sub_join"><input type="radio" name="p23" value="0" id="sub_join"/> b) La energía interna ΔU del gas disminuye debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo ΔW sobre el émbolo. </label>
+
+<label for="sub_info"><input type="radio" name="p23" value="0" id="sub_info" />  c) La energía interna ΔU del gas aumenta debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo -ΔW sobre el émbolo. </label>
+
+<label for="sub_condition"><input type="radio" name="p23" value="0" id="sub_condition" /> d) La energía interna ΔU del gas disminuye debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo ΔW sobre el émbolo. </label>
+
+<label for="sub_condition"><input type="radio" name="p23" value="10" id="sub_condition" /> e) La energía interna ΔU del gas aumenta debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo ΔW sobre el émbolo. </label>
+
+
+
+
+<h2>22) Al frotar rápidamente las palmas de las manos una contra la otra, se está realizando trabajo sobre la piel, ocasionando un aumento en la temperatura de las manos. Esto es debido a la conversión del trabajo en energía térmica. </h2>
+<label for="sub_string"><input type="radio" name="p24" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p24" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>23) Es una cantidad que depende de la trayectoria entre dos estados de equilibrio termodinámico y está asociada a procesos.</h2>
+<label for="sub_string"><input type="radio" name="p25" value="0" id="sub_string"/> a) Calor. </label>
+<label for="sub_join"><input type="radio" name="p25" value="10" id="sub_join"/> b) Trabajo. </label>
+
+
+
+
+<h2>24) En el experimento de Joule de la rueda de paletas, no hay transferencia de calor al agua, sin embargo su temperatura se eleva debido a la realización de trabajo mecánico. </h2>
+<label for="sub_string"><input type="radio" name="p26" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p26" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>25) Es un proceso en el que el volumen del sistema permanece constante. En consecuencia ΔW=0, y aplicando la primera ley encontramos que ΔU=ΔQ. </h2>
+<label for="sub_string"><input type="radio" name="p27" value="0" id="sub_string"/> a) Sistema aislado. </label>
+<label for="sub_join"><input type="radio" name="p27" value="0" id="sub_join"/> b) Proceso cíclico. </label>
+<label for="sub_info"><input type="radio" name="p27" value="10" id="sub_info" />  c) Proceso a volumen constante. </label>
+<label for="sub_condition"><input type="radio" name="p27" value="0" id="sub_condition" /> d) Proceso adiabático. </label>
+<label for="sub_condition"><input type="radio" name="p27" value="0" id="sub_condition" /> e) Expansión libre adiabática. </label>
+
+
+
+<h2>26) Selecciona la respuesta correcta. Es un proceso en el cual no sucede intercambio alguno de  calor con los alrededores ni tampoco se efectúa trabajo en sus alrededores. En este caso ΔQ=0, ΔW=0, por lo que se concluye que ΔU = 0. </h2>
+<label for="sub_string"><input type="radio" name="p28" value="10" id="sub_string"/> a) Sistema aislado. </label>
+<label for="sub_join"><input type="radio" name="p28" value="0" id="sub_join"/> b) Proceso cíclico. </label>
+<label for="sub_info"><input type="radio" name="p28" value="0" id="sub_info" />  c) Proceso a volumen constante. </label>
+<label for="sub_condition"><input type="radio" name="p28" value="0" id="sub_condition" /> d) Proceso adiabático. </label>
+<label for="sub_condition"><input type="radio" name="p28" value="0" id="sub_condition" /> e) Expansión libre adiabática. </label>
+
+
+
+<h2>27) Es un proceso en el que un gas se expande repentinamente sin realizar trabajo. Esto implica que tanto ΔQ como ΔW son iguales a cero, y entonces se tiene ΔU=0, que significa que la energía interna no cambia. </h2>
+<label for="sub_string"><input type="radio" name="p29" value="0" id="sub_string"/> a) Sistema aislado. </label>
+<label for="sub_join"><input type="radio" name="p29" value="0" id="sub_join"/> b) Proceso cíclico. </label>
+<label for="sub_info"><input type="radio" name="p29" value="0" id="sub_info" />  c) Proceso a volumen constante. </label>
+<label for="sub_condition"><input type="radio" name="p29" value="0" id="sub_condition" /> d) Proceso adiabático. </label>
+<label for="sub_condition"><input type="radio" name="p29" value="10" id="sub_condition" /> e) Expansión libre adiabática. </label>
+
+
+
+
+<h2>28) Es un proceso en el que un sistema regresa a su estado inicial. El cambio en la energía interna es cero, esto es ΔU = 0. El trabajo realizado por el sistema es igual al calor suministrado, ya que el sistema regresa a su estado inicial. </h2>
+<label for="sub_string"><input type="radio" name="p30" value="0" id="sub_string"/> a) Sistema aislado. </label>
+<label for="sub_join"><input type="radio" name="p30" value="10" id="sub_join"/> b) Proceso cíclico. </label>
+<label for="sub_info"><input type="radio" name="p30" value="0" id="sub_info" />  c) Proceso a volumen constante. </label>
+<label for="sub_condition"><input type="radio" name="p30" value="0" id="sub_condition" /> d) Proceso adiabático. </label>
+<label for="sub_condition"><input type="radio" name="p30" value="0" id="sub_condition" /> e) Expansión libre adiabática. </label>
+
+
+
+<h2>29) Es un proceso en el que no hay intercambio de calor con los alrededores; esto es ΔQ=0. Así ΔU = - ΔW. El cambio en la energía interna se debe sólo al trabajo realizado por el sistema. </h2>
+<label for="sub_string"><input type="radio" name="p31" value="0" id="sub_string"/> a) Sistema aislado. </label>
+<label for="sub_join"><input type="radio" name="p31" value="0" id="sub_join"/> b) Proceso cíclico. </label>
+<label for="sub_info"><input type="radio" name="p31" value="0" id="sub_info" />  c) Proceso a volumen constante. </label>
+<label for="sub_condition"><input type="radio" name="p31" value="10" id="sub_condition" /> d) Proceso adiabático. </label>
+<label for="sub_condition"><input type="radio" name="p31" value="0" id="sub_condition" /> e) Expansión libre adiabática. </label>
+
+
+
+<h2>30) En una máquina térmica real, todo el calor suministrado por un depósito caliente se convierte en trabajo. </h2>
+<label for="sub_string"><input type="radio" name="p32" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p32" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>31) En una máquina térmica ideal “perfecta”, una parte del calor tomado por la máquina de un depósito caliente se convierte en trabajo W, y el resto se cede como calor a un depósito frío. </h2>
+<label for="sub_string"><input type="radio" name="p33" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p33" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>32) La secuencia indica el orden correcto de los procesos durante la operación de una máquina térmica real?. I. La máquina térmica realiza un trabajo mecánico mediante la utilización de una parte del calor de entrada. II. Una cantidad de calor se libera a un recipiente de baja temperatura. III. Una cantidad de calor se suministra a la máquina térmica desde un recipiente a alta temperatura. </h2>
+<label for="sub_string"><input type="radio" name="p34" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p34" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>33) El enunciado de Kelvin-Planck de la segunda ley de la termodinámica afirma que es imposible que una máquina térmica que funciona en un ciclo convierta el calor suministrado por un depósito caliente completamente en trabajo. </h2>
+<label for="sub_string"><input type="radio" name="p35" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p35" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>34) La eficiencia térmica ε de una máquina térmica se define como la cantidad de trabajo realizado por un sistema dividido entre el calor de entrada suministrado por un depósito caliente. ¿Cuál es la expresión correcta para esta definición, en términos de los calores involucrados?. </h2>
+<label for="sub_string"><input type="radio" name="p36" value="10" id="sub_string"/> a) (calor de entrada - calor de salida)/calor entrada = ε. </label>
+<label for="sub_join"><input type="radio" name="p36" value="0" id="sub_join"/> b) (calor de salida - calor de entrada)/calor salida = ε. </label>
+<label for="sub_info"><input type="radio" name="p36" value="0" id="sub_info" />  c) (calor de entrada + calor de salida)/calor entrada = ε. </label>
+<label for="sub_condition"><input type="radio" name="p36" value="0" id="sub_condition" /> d) (calor de salida - calor de entrada)/calor entrada = ε. </label>
+<label for="sub_condition"><input type="radio" name="p36" value="0" id="sub_condition" /> e) (calor de entrada + calor de salida)/calor salida = ε. </label>
+
+
+
+
+<h2>35) Es posible transformar totalmente una cantidad de energía mecánica en calor en un proceso cíclico. </h2>
+<label for="sub_string"><input type="radio" name="p38" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p38" value="10" id="sub_join"/> Verdadero. </label>
+
+
+<h2>36) Es posible transformar totalmente una cantidad de calor en energía mecánica en un proceso cíclico. </h2>
+<label for="sub_string"><input type="radio" name="p39" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p39" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>37) Un sistema es llevado de un estado de equilibrio a otro mediante un proceso irreversible. El cambio en la entropía depende de los detalles del proceso. </h2>
+<label for="sub_string"><input type="radio" name="p40" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p40" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>38) La segunda ley de la termodinámica afirma que los procesos naturales (irreversibles) tienden a desarrollarse hacia estados de mayor desorden, o de estados de baja probabilidad a estados de alta probabilidad. </h2>
+<label for="sub_string"><input type="radio" name="p41" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p41" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>39) En un proceso termodinámico reversible la entropía de un sistema aislado permanece constante. </h2>
+<label for="sub_string"><input type="radio" name="p42" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p42" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>40) Supongamos que tenemos un gas que se encuentra en un frasco cerrado y vacío. Las moléculas del gas se mueven hacia todas las direcciones y están en un estado ordenado. Si retiramos la tapa del frasco, las moléculas del gas escapan hacía el exterior y adquieren así un mayor grado de desorden. ¿Qué sucede con la entropía del gas al momento de destapar el frasco?. </h2>
+<label for="sub_string"><input type="radio" name="p43" value="0" id="sub_string"/> a) Se mantiene igual. </label>
+<label for="sub_join"><input type="radio" name="p43" value="0" id="sub_join"/> b) Disminuye. </label>
+<label for="sub_info"><input type="radio" name="p43" value="10" id="sub_info" /> c) Aumenta.  </label>
+<label for="sub_condition"><input type="radio" name="p43" value="0" id="sub_condition" /> d) Depende del volumen del frasco. </label>
+<label for="sub_condition"><input type="radio" name="p43" value="0" id="sub_condition" /> e) Depende de la temperatura del exterior. </label>
+
+
+
+
+
+
+<h2>41) Al dejar caer una gota de tinta china en un frasco con agua, la tinta se difunde en toda el agua contenida en el frasco. A partir de que la tinta china toca el agua y hasta que se difunde totalmente en el agua, ¿qué sucedió con la entropía de la gota?. </h2>
+<label for="sub_string"><input type="radio" name="p44" value="0" id="sub_string"/> a) Disminuyó </label>
+<label for="sub_join"><input type="radio" name="p44" value="0" id="sub_join"/> b) Se mantuvo igual </label>
+<label for="sub_info"><input type="radio" name="p44" value="10" id="sub_info" />  c) Aumentó </label>
+<label for="sub_condition"><input type="radio" name="p44" value="0" id="sub_condition" /> d) Depende de la cantidad de agua </label>
+<label for="sub_condition"><input type="radio" name="p44" value="0" id="sub_condition" /> e) Depende del tamaño de la gota </label>
+
+
+
+
+<h2>42) Romper una botella vacía o fundir un cubo de hielo en un vaso con refresco de cola son procesos irreversibles y por lo tanto su entropía se mantiene constante. </h2>
+<label for="sub_string"><input type="radio" name="p45" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p45" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+
+<h1><h1>→Fin de las preguntas</h1>
+
+<p>Antes de dar click en el botón para calificar, por favor revise que todas sus respuestas estén seleccionadas. 
+
+<p>En caso de que alguna o algunas preguntas queden sin responder, el sistema "borrará" todas las respuestas seleccionadas. Para corregir esta situación, es suficiente con regresar a la página dando click en el botón ← (regresar una página) y ahí estarán todas las opciones seleccionadas sin ningún problema, sin perderse y como habían sido seleccionadas.
+
+<p>Si es posible, guarde o tenga anotadas sus respuestas en un lugar seguro. </p>
+
+<button type="submit" value="Submit">Calificar</button>
+
+</form>
+
+<p>En escala de 0 a 10, la calificación es: <span id="grade">__</span></p> 
+<p id="grade2"></p>
+
+
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+	    p2 = parseInt(document.querySelector('input[name = "p2"]:checked').value);
+	    p3 = parseInt(document.querySelector('input[name = "p3"]:checked').value);
+	    p4 = parseInt(document.querySelector('input[name = "p4"]:checked').value);
+	    p5 = parseInt(document.querySelector('input[name = "p5"]:checked').value);
+	    p6 = parseInt(document.querySelector('input[name = "p6"]:checked').value);
+	    p7 = parseInt(document.querySelector('input[name = "p7"]:checked').value);
+	    p8 = parseInt(document.querySelector('input[name = "p8"]:checked').value);
+	    p9 = parseInt(document.querySelector('input[name = "p9"]:checked').value);
+	    p10 = parseInt(document.querySelector('input[name = "p10"]:checked').value);
+	    p11 = parseInt(document.querySelector('input[name = "p11"]:checked').value);
+	    p12 = parseInt(document.querySelector('input[name = "p12"]:checked').value);
+	    p13 = parseInt(document.querySelector('input[name = "p13"]:checked').value);
+	    p14 = parseInt(document.querySelector('input[name = "p14"]:checked').value);
+	    p15 = parseInt(document.querySelector('input[name = "p15"]:checked').value);
+	    p16 = parseInt(document.querySelector('input[name = "p16"]:checked').value);
+	    p17 = parseInt(document.querySelector('input[name = "p17"]:checked').value);
+	    p18 = parseInt(document.querySelector('input[name = "p18"]:checked').value);
+	    p19 = parseInt(document.querySelector('input[name = "p19"]:checked').value);
+	    p20 = parseInt(document.querySelector('input[name = "p20"]:checked').value);
+	    p22 = parseInt(document.querySelector('input[name = "p22"]:checked').value);
+	    p23 = parseInt(document.querySelector('input[name = "p23"]:checked').value);
+	    p24 = parseInt(document.querySelector('input[name = "p24"]:checked').value);
+	    p25 = parseInt(document.querySelector('input[name = "p25"]:checked').value);
+	    p26 = parseInt(document.querySelector('input[name = "p26"]:checked').value);
+	    p27 = parseInt(document.querySelector('input[name = "p27"]:checked').value);
+	    p28 = parseInt(document.querySelector('input[name = "p28"]:checked').value);
+	    p29 = parseInt(document.querySelector('input[name = "p29"]:checked').value);
+	    p30 = parseInt(document.querySelector('input[name = "p30"]:checked').value);
+	    p31 = parseInt(document.querySelector('input[name = "p31"]:checked').value);
+	    p32 = parseInt(document.querySelector('input[name = "p32"]:checked').value);
+	    p33 = parseInt(document.querySelector('input[name = "p33"]:checked').value);
+	    p34 = parseInt(document.querySelector('input[name = "p34"]:checked').value);
+	    p35 = parseInt(document.querySelector('input[name = "p35"]:checked').value);
+	    p36 = parseInt(document.querySelector('input[name = "p36"]:checked').value);
+	    p38 = parseInt(document.querySelector('input[name = "p38"]:checked').value);
+	    p39 = parseInt(document.querySelector('input[name = "p39"]:checked').value);
+	    p40 = parseInt(document.querySelector('input[name = "p40"]:checked').value);
+	    p41 = parseInt(document.querySelector('input[name = "p41"]:checked').value);
+	    p42 = parseInt(document.querySelector('input[name = "p42"]:checked').value);
+	    p43 = parseInt(document.querySelector('input[name = "p43"]:checked').value);
+	    p44 = parseInt(document.querySelector('input[name = "p44"]:checked').value);
+	    p45 = parseInt(document.querySelector('input[name = "p45"]:checked').value);
+
+
+
+
+	   result = (p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10 + p11 + p12 + p13 + p14 + p15 + p16 + p17 + p18 + p19 + p20 + p22 + p23 + p24 + p25 + p26 + p27 + p28 + p29 + p30 + p31 + p32 + p33 + p34 + p35 + p36 + p38 + p39 + p40 + p41 + p42 + p43 + p44 + p45)/42;
+
+
+
+	document.getElementById("grade").innerHTML = result;
+
+ grading = [
+	   {score:00/42,feedback:"0 aciertos obtenidos. INSUFICIENTE"},
+	   {score:10/42,feedback:"1 acierto obtenido. INSUFICIENTE"},
+	   {score:20/42,feedback:"2 aciertos obtenidos. INSUFICIENTE"},
+	   {score:30/42,feedback:"3 aciertos obtenidos. INSUFICIENTE"},
+	   {score:40/42,feedback:"4 aciertos obtenidos. INSUFICIENTE"},
+	   {score:50/42,feedback:"5 aciertos obtenidos. INSUFICIENTE"},
+	   {score:60/42,feedback:"6 aciertos obtenidos. INSUFICIENTE"},
+	   {score:70/42,feedback:"7 aciertos obtenidos. INSUFICIENTE"},
+	   {score:80/42,feedback:"8 aciertos obtenidos. INSUFICIENTE"},
+	   {score:90/42,feedback:"9 aciertos obtenidos. INSUFICIENTE"},
+	   {score:100/42,feedback:"10 aciertos obtenidos. INSUFICIENTE"},
+	   {score:110/42,feedback:"11 aciertos obtenidos. INSUFICIENTE"},
+	   {score:120/42,feedback:"12 aciertos obtenidos. INSUFICIENTE"},
+	   {score:130/42,feedback:"13 aciertos obtenidos. INSUFICIENTE"},
+	   {score:140/42,feedback:"14 aciertos obtenidos. INSUFICIENTE"},
+	   {score:150/42,feedback:"15 aciertos obtenidos. INSUFICIENTE"},
+	   {score:160/42,feedback:"16 aciertos obtenidos. INSUFICIENTE"},
+	   {score:170/42,feedback:"17 aciertos obtenidos. INSUFICIENTE"},
+	   {score:180/42,feedback:"18 aciertos obtenidos. INSUFICIENTE"},
+	   {score:190/42,feedback:"19 aciertos obtenidos. INSUFICIENTE"},
+	   {score:200/42,feedback:"20 aciertos obtenidos. INSUFICIENTE"},
+	   {score:210/42,feedback:"21 aciertos obtenidos. INSUFICIENTE"},
+	   {score:220/42,feedback:"22 aciertos obtenidos. INSUFICIENTE"},
+	   {score:230/42,feedback:"23 aciertos obtenidos. INSUFICIENTE"},
+	   {score:240/42,feedback:"24 aciertos obtenidos. SUFICIENTE"},
+	   {score:250/42,feedback:"25 aciertos obtenidos. SUFICIENTE"},
+	   {score:260/42,feedback:"26 aciertos obtenidos. SUFICIENTE"},
+	   {score:270/42,feedback:"27 aciertos obtenidos. SUFICIENTE"},
+	   {score:280/42,feedback:"28 aciertos obtenidos. REGULAR"},
+	   {score:290/42,feedback:"29 aciertos obtenidos. REGULAR"},
+	   {score:300/42,feedback:"30 aciertos obtenidos. REGULAR"},
+	   {score:310/42,feedback:"31 aciertos obtenidos. REGULAR"},
+	   {score:320/42,feedback:"32 aciertos obtenidos. BIEN"},
+	   {score:330/42,feedback:"33 aciertos obtenidos. BIEN"},
+	   {score:340/42,feedback:"34 aciertos obtenidos. BIEN"},
+	   {score:350/42,feedback:"35 aciertos obtenidos. BIEN"},
+	   {score:360/42,feedback:"36 aciertos obtenidos. MUY BIEN"},
+	   {score:370/42,feedback:"37 aciertos obtenidos. MUY BIEN"},
+	   {score:380/42,feedback:"38 aciertos obtenidos. MUY BIEN"},
+	   {score:390/42,feedback:"39 aciertos obtenidos. MUY BIEN"},
+	   {score:400/42,feedback:"40 aciertos obtenidos. EXCELENTE"},
+	   {score:410/42,feedback:"41 aciertos obtenidos. EXCELENTE"},
+	   {score:420/42,feedback:"42 aciertos obtenidos. EXCELENTE"}
+	   ];
+
+
+
+
+for(i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback + "<br /> <br /> Respuestas Correctas: <br /> <br />  1: Opción correcta inciso b), Energías provenientes de recursos no renovables. <br /> <br />  2: Opción correcta inciso a), Energías provenientes de recursos renovables.  <br /> <br />  3: Verdadero. Pues aunque dos cuerpos no se encuentren en contacto físico entre ellos, pero si se encuentra entre ellos un conductor térmico, entonces fluye calor del que esté más caliente al de menor temperatura, hasta alcanzar el equilibrio térmico. <br /> <br />  4: Falso. Por la segunda ley de la termodinámica sabemos que el calor fluye siempre de un cuerpo caliente hacia otro menos caliente. En este caso, la temperatura del aire en el cuarto es mayor que la del aire del refrigerador, entonces fluye calor del aire del cuarto hacia el refrigerador. <br /> <br />  5: Un intervalo de temperatura de 100°C equivale a 180°F, de modo que ΔtF = (9/5)ΔtC, esto es (tFi - tFf) = (9/5)(tCf - tCi). Puesto que la temperatura de 0°C corresponde a 32°F, tenemos que la solución corresponde al inciso a). <br /> <br />  6: Verdadero. Pues la energía térmica es mucho mayor en la jarra que en la pequeña taza debido a que contiene un número mayor número de moléculas. <br /> <br />  7: Verdadero. Pues en la materia, y a nivel microscópico hay energía cinética de rotación de las moléculas y energía cinética debida a los movimientos internos de los átomos dentro de las moléculas. Hay también energía potencial debida a las fuerzas que se ejercen entre las moléculas. El total de todas las energías que una sustancia contiene es la energía interna. Y por tanto las sustancias no contienen calor, sino energía interna. <br /> <br />  8: El termómetro es un instrumento que mide la temperatura, como se muestra en el inciso c). <br /> <br />  9: La respuesta correcta se encuentra en el inciso b), pues el aumento que experimenta la longitud o el volumen de la mayoría de las sustancias cuando se eleva su temperatura, corresponde a la dilatación térmica. <br /> <br />  10: Falso. Pues la superficie interior del vidrio se dilata más rápidamente que la superficie exterior. El esfuerzo térmico resultante puede ser suficiente para provocar la rotura del vidrio. <br /> <br />  11: El calor específico del agua es de 4190 J/kg*K. En este caso, el calor requerido 500 MJ para elevar en 10 K la temperatura de agua está dado por (500X10<sup>6</sup> J)=m (4190 J/kg*K) (10 K). Despejando la masa tenemos, m = 1.19X10<sup>4</sup> kg. La respuesta correcta es la del inciso b). <br /> <br />  12: El calor específico del agua es de 4190 J/kg K y el del acero es de 450 J/kg K. El calor necesario para aumentar 80 K la temperatura de 0.5 kg de acero es de 18000 J, y el calor necesario para aumentar 80 K la temperatura de 0.6 kg de agua es de 201120. El calor total necesario es entonces 219120 J. Si la potencia de la resistencia es de 1200 J/s, entonces el tiempo necesario para incrementar la temperatura del sistema es t = (219120 J)/(1200 J/s) = 182.6 s. La opción correcta es el inciso c). <br /> <br />  13: El calor requerido involucra cuatro términos ΔQ = mh ch ΔT1 + mh Lf + ma ca ΔT2 + ma Lv; donde Lf y Lv son los calores latentes de fusión y vaporización, y ch y ca son los calores específicos del hielo y del agua. Tenemos (0.08 kg)(2100 J/kg K)(10 K) + (0.08 kg)(3.34X10<sup>5</sup> J/kg) + (0.02 kg)(4190 J/kg K)(100 K) + (0.02 kg)(2.26X10<sup>6</sup> J/kg) = 81.98 KJ, como se indica en el inciso d). <br /> <br />  14: El calor absorbido por la taza esté dado por Q = (0.5 kg)(880 J/kg C)(70 C) = 30.8X10<sup>3</sup> J. La opción correcta se muestra en el inciso b). <br /> <br />  15: El calor específico del cobre es de 385 J/kg °C, y el calor latente de fusión del cobre es de 134X10<sup>3</sup> J/kg. El calor necesario para elevar la temperatura de 540 kg de cobre desde 20 hasta 1080 °C es de 2.20X10<sup>8</sup> J, y el calor necesario para fundir 540kg de cobre es de 7.24X10<sup>7</sup> J, así podemos decir que el calor necesario total es de 2.92X10<sup>8</sup> J, como se indica en el inciso b). <br /> <br />  16: La transferencia de calor puede efectuarse por tres formas diferentes, conducción , convección, y radiación. La transferencia de calor por convección se debe al movimiento del propio material calentado. Por lo que la elección de respuesta correcta es el inciso c). <br /> <br />  17: La solución a este reactivo corresponde al inciso b). <br /> <br />  18: La solución a este reactivo corresponde al inciso a). <br /> <br />  19: La solución a este reactivo corresponde al inciso a). <br /> <br />  20: La solución a este reactivo corresponde al inciso d). <br /> <br />  21: La respuesta correcta está en el inciso e), ya que la energía interna ΔU del gas aumenta debido a una parte del calor de entrada, y el gas realiza una cantidad de trabajo ΔW sobre el émbolo. <br /> <br />  22: Verdadero. La energía interna del sistema, la piel de las manos, cambia cuando se efectúa un trabajo sobre ese sistema y provoca un incremento en la temperatura. <br /> <br />  23: La opción correcta es el inciso b). El trabajo realizado por un sistema depende de la trayectoria termodinámica que sigue un sistema para ir de un estado a otro. <br /> <br />  24: Verdadero. Pues el aparato con rueda de paletas se usó para mostrar la equivalencia entre dos formas de energía: la energía calorífica o calor con la energía mecánica. <br /> <br />  25: La respuesta correcta es el inciso c). <br /> <br />  26: La respuesta correcta es el inciso a). <br /> <br />  27: La respuesta correcta es el inciso e). <br /> <br />  28: La respuesta correcta es el inciso b). <br /> <br />  29: La respuesta correcta es el inciso d). <br /> <br />  30: Falso. Pues en una máquina real una parte del calor tomado por la máquina de un depósito caliente se convierte en trabajo W, y el resto se libera como calor a un depósito frío. <br /> <br />  31: Falso. Pues en una máquina térmica “perfecta”, todo el calor tomado por la máquina de un depósito caliente se convierte en trabajo. <br /> <br />  32: Falso. Pues el orden correcto en los procesos durante la operación de una máquina térmica real es: I. Una cantidad de calor se suministra a la máquina térmica desde un recipiente a alta temperatura o depósito caliente. II. La máquina térmica realiza un trabajo mecánico mediante la utilización de una parte del calor de entrada. III. Una cantidad de calor se libera a un recipiente de baja temperatura o depósito frío. <br /> <br />  33: Verdadero. Esa es la forma en que se expresa el enunciado de Kelvin-Planck de la segunda ley de la termodinámica. <br /> <br />  34: La eficiencia térmica de una máquina térmica se define como el trabajo realizado por la máquina dividido entre el calor que entra o que toma del depósito caliente. El trabajo realizado por la máquina es igual a calor de entrada -  calor de salida. Por lo tanto, la eficiencia de la máquina térmica corresponde al inciso a). <br /> <br />  35: Verdadero. Cuando nos frotamos las manos vigorosamente, el trabajo contra la fricción incrementa la energía interna y provoca una elevación en la temperatura. El aire de los alrededores constituye un gran depósito a una temperatura más baja, y una cantidad de calor fluye al aire sin que esté cambie su temperatura apreciablemente. De acuerdo con la primera ley de la termodinámica, la energía mecánica se ha transformado en calor. <br /> <br />  36: Falso. En un proceso cíclico es imposible convertir calor en trabajo. En una expansión isotérmica de un gas ideal es posible convertir calor completamente en trabajo. Sin embargo, el sistema no regresa a su estado inicial y no opera de manera cíclica, pues su volumen ha aumentado y su presión ha disminuido. <br /> <br />  37: Falso. Pues la entropía es una función de estado de un sistema y depende únicamente del estado de equilibrio del sistema. El cambio en la entropía depende sólo de los estados inicial y final de equilibrio y no de la trayectoria termodinámica. <br /> <br />  38: Verdadero. Pues en un proceso irreversible la entropía aumenta. Un estado de mayor desorden está relacionado con una entropía mayor. <br /> <br />  39: Verdadero. Pues el cambio en la entropía en un proceso reversible es cero. <br /> <br />  40: Al momento de destapar el frasco las moléculas del gas se mueven al azar y con rapidez arbitraría constituyendo un estado desordenado, esto es, un estado más aleatorio y más probable. Como la entropía corresponde a una medida de la cantidad de desorden, entonces la entropía del gas aumenta al momento de destapar el frasco. La opción correcta se muestra en el inciso c). <br /> <br />  41: En un proceso irreversible, el cambio en la entropía aumenta. La opción correcta se muestra en el inciso c). <br /> <br />  42: Falso. Todos son procesos irreversibles, y por lo tanto el cambio en la entropía es mayor que cero, es decir, la entropía ha aumentado. ";
+	  }
+	  }
+
+
+
+
+ document.getElementById("grade2").innerHTML = result2;
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+
+
+
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+
